@@ -625,6 +625,9 @@
       if (target._findTargetCorner(this.getPointer(e, true))) {
         this.onBeforeScaleRotate(target);
       }
+      else {
+        this.onBeforeMove(target);
+      }
 
     },
 
